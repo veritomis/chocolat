@@ -1,0 +1,71 @@
+#img_bombon {
+    max-width: 50%;
+    border-radius: 50%;
+}#img_bombon {
+    max-width: 50%;
+    border-radius: 50%;
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#fondo{
+    background: url(https://scontent.faep24-1.fna.fbcdn.net/v/t1.6435-9/207136041_177665441038442_6221736612566634218_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mvah6FOSsrIAX8a2LVC&_nc_oc=AQkEiWwmqzZ-eAs0OV4VwjwoZhkLqK1VHOBF9zsi_hiUZDx5hfpDNpG5ldmq7oSvou0&_nc_ht=scontent.faep24-1.fna&oh=00_AfDvsuNm0cwfxt67h4uD7cbdoMNlqITAltkKIMoubzCzbw&oe=64E34375) fixed;
+    background-size: 100%;
+    backdrop-filter: blur(15px);
+
+    background-image: fixed;
+   background-repeat: no-repeat;
+}
+
+
+.imagen{
+    position: absolute;
+    text-align: left;
+   width: 100px;
+   height: 90px;
+}
+#create_button{
+    background-color: #8cd40d;
+    color: #502a1e;
+}
+#create_button:hover{
+    background-color: #502a1e;
+    color: #8cd40d;
+    transition: .7s;
+}
+
+@media (max-width: 800px) {
+    
+    #content{
+        display: flex;
+        flex-direction:column;
+        color: rgb(246, 17, 17);
+        text-align: center;
+        position:relative;
+        
+    }
+    
+  }
+  
+  @media (min-width: 800px) and (max-width: 1280px) {
+    .menu {
+      background: red;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    #content{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+        flex: 1 1 auto;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+  }

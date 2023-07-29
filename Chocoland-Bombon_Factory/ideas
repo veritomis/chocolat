@@ -1,0 +1,10 @@
+
+cobertura:
+ - chocolateBlanco.
+ - chocoloateNegro,
+ - mixto
+
+relleno:
+ - dulceDeLeche
+ - alemendrado
+ - frutado
